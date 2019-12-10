@@ -167,6 +167,9 @@ void NewAnalyzer::Loop()
 	
     std::vector<float> bdisc, bdisc2;
     std::vector<TLorentzVector> jets, jets2;
+    Float_t bjet_pt[20];
+    Float_t bjet_eta[20];
+    std::vector<float> delta_R_bjet_dimuon(20);
     TLorentzVector jet;
 	
     //std::cout << "******************************************" << std::endl;
@@ -289,7 +292,6 @@ void NewAnalyzer::Loop()
       
       histos["eventWeight_PU"]->Fill(PU_Weight);
       
-
       //select the pairs if there are at least 2 muons
       if(tight_muons.size()>1)
 	selectDimuonPair(tight_muons, tight_muons_trigger, tight_muons_charge, tight_twomuons);
@@ -340,6 +342,8 @@ void NewAnalyzer::Loop()
 			delta_R_bjet_dimuon[Nbjet-1] = jets[i].DeltaR(tight_dimuon);
 			bjet_pt[Nbjet-1] = jets[i].Pt();
 			bjet_eta[Nbjet-1] = jets[i].Eta();
+                        bjet_pt0 = bjet_pt[0];
+                        bjet_eta0 = bjet_eta[0]; 
 		}
 		else if(bdisc[i] < Btag_disc_cut) {
 			not_bjet++;
@@ -352,11 +356,21 @@ void NewAnalyzer::Loop()
 		}
 	}   
 	if(Nbjet != 0){
+                bjet_pt0 = bjet_pt[0];
+                bjet_eta0 = bjet_eta[0];
+                delta_R_bjet_dimuon0 = delta_R_bjet_dimuon[0];
 		delta_pt_mupair_1bjet = tight_dimuon.Pt() - bjet_pt[0];
 		delta_eta_mupair_1bjet = tight_dimuon.Eta() - bjet_eta[0];		
 	}
-
-        abjet_eta = bjet_eta[0];
+        else if(Nbjet ==0){
+                continue;
+                //bjet_pt0 = 0;
+                //bjet_eta0 = 0;
+                //delta_R_bjet_dimuon0 = 0;
+                //delta_pt_mupair_1bjet = 0;
+                //delta_eta_mupair_1bjet = 0;
+        }
+ 
         //plot dei dimuoni inclusivi prima della categorizzazione
 	histos["hist_mass_inclusive"]->Fill(tight_dimuon.M(), PU_Weight);
 	histos["hist_p_inclusive"]->Fill(tight_dimuon.P(), PU_Weight);
@@ -368,7 +382,8 @@ void NewAnalyzer::Loop()
 	jets2.clear();
 	the_twomuons.clear();
 	bdisc.clear();
-	bdisc2.clear();
+	bdisc2.clear(); 
+        delta_R_bjet_dimuon.clear();
 	//categorization	
       }//end mass cut
     } 
@@ -386,7 +401,6 @@ void NewAnalyzer::Loop()
   std::cout <<"tight and iso muons " << muoni<< std::endl; 
   std::cout <<"trigger and opp.charge " << dimuoni << std::endl; 
   std::cout <<"mass > 50 GeV " << dimuonisel << std::endl; 
-
 
   if(preselezionati > 0){
     
@@ -434,7 +448,7 @@ void NewAnalyzer::BookHistos() {// here is where to book histos -> Function call
   masstree2_ = new TTree("MassTree2", "Invariant mass of cat2 events");
   masstree2_->Branch("MassCat2",&MassCat2, "MassCat2/F");
 
-  
+  signaltree_->Branch("tight_dimuon","TLorentzVector",&tight_dimuon);
   signaltree_->Branch("dimuon_deltar",&mu_deltar,"mu_deltar/F");
   signaltree_->Branch("dimuon_deltaphi",&mu_deltaphi,"mu_deltaphi/F");
   signaltree_->Branch("dimuon_deltaeta",&mu_deltaeta,"mu_deltaeta/F");  
@@ -446,10 +460,10 @@ void NewAnalyzer::BookHistos() {// here is where to book histos -> Function call
 //  signaltree_->Branch("Met_sumet",&My_MEt_sumet);
   signaltree_->Branch("btag_jet",&Nbjet,"Nbjet/I");
   signaltree_->Branch("no_btag_jet",&not_bjet,"not_bjet/I");  
-  signaltree_->Branch("bjet_pt",&bjet_pt,"bjet_pt[Nbjet]/F");
-  signaltree_->Branch("bjet_eta",&bjet_eta,"bjet_eta[Nbjet]/F");
+  signaltree_->Branch("bjet_pt",&bjet_pt0,"bjet_pt0/F");
+  signaltree_->Branch("bjet_eta",&bjet_eta0,"bjet_eta0/F");
   signaltree_->Branch("btag_jet_over2.4",&Nbjet2,"Nbjet2/I");
-  signaltree_->Branch("delta_R_bjet_dimuon",&delta_R_bjet_dimuon,"delta_R_bjet_dimuon[Nbjet]/F");
+  signaltree_->Branch("delta_R_bjet_dimuon",&delta_R_bjet_dimuon0,"delta_R_bjet_dimuon0/F");
   signaltree_->Branch("delta_pt_mupair_1bjet",&delta_pt_mupair_1bjet,"delta_pt_mupair_1bjet/F");  
   signaltree_->Branch("delta_eta_mupair_1bjet",&delta_eta_mupair_1bjet,"delta_eta_mupair_1bjet/F");  
   
@@ -696,7 +710,7 @@ void NewAnalyzer::Draw2() { // To be called After the Loop to look at plots
          TString sig_exists = "signal_" + sel_dataset + "tree";
          TString bkg_exists = "bkg_" + sel_dataset + "tree";
 		 
-		 TString file_name = "TMVA/analysis.root";
+		 TString file_name = "analysis_least1bjet.root";
 		 
          outputFile2 = new TFile(file_name,"update");
 	     outputFile2->cd("/");
@@ -751,7 +765,6 @@ TLorentzVector NewAnalyzer::buildDimuonPair(std::vector<TLorentzVector> muon_pai
   float muPDG = 0.105658;
   mu1.SetPtEtaPhiM(muon_pair[0].Pt()*k1, muon_pair[0].Eta(), muon_pair[0].Phi(), muPDG);
   mu2.SetPtEtaPhiM(muon_pair[1].Pt()*k2, muon_pair[1].Eta(), muon_pair[1].Phi(), muPDG);
-  
   mu_deltar = mu1.DeltaR(mu2);
   mu_deltaphi = mu1.DeltaPhi(mu2);
   mu_deltaeta = mu1.Eta() - mu2.Eta();
