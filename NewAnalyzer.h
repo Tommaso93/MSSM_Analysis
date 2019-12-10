@@ -38,10 +38,12 @@ class NewAnalyzer {
   Float_t mass;
   Float_t Min_mass;
   Float_t Max_mass;
-  Float_t bjet_pt[20];
-  Float_t abjet_eta;
-  Float_t bjet_eta[20];
-  Float_t delta_R_bjet_dimuon[3]; 
+  //Float_t bjet_pt[20];
+  Float_t bjet_pt0;
+  //Float_t bjet_eta[20];
+  Float_t bjet_eta0;
+  //Float_t delta_R_bjet_dimuon[20];
+  Float_t delta_R_bjet_dimuon0=0; 
 
   int MomentumScaleCorrection;
 
