@@ -11,5 +11,6 @@ runme.C has two parameters:
 - The string of the dataset you want to produce the corresponding tree in the root file (only bbA dataset available);
 - The corresponding mass value of the signal mass, 0 for background.
 
+For background samples, only "DY_nlo1" and "ttbar_nlo" are available.
 
 Tommaso
