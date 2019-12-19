@@ -710,7 +710,7 @@ void NewAnalyzer::Draw2() { // To be called After the Loop to look at plots
          TString sig_exists = "signal_" + sel_dataset + "tree";
          TString bkg_exists = "bkg_" + sel_dataset + "tree";
          
-         TString file_name = "analysis_least1bjet" + std::to_string(int(mass)) + ".root";
+         TString file_name = "analysis_least1bjet.root";
          
          outputFile2 = new TFile(file_name,"update");
 	     outputFile2->cd("/");
