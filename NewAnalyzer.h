@@ -677,481 +677,481 @@ NewAnalyzer::NewAnalyzer(TString dataset, float mA, float min, float max, int Sc
     
      
     if(sel_dataset == "bbA_MA1000_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA1000_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-1000_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA110_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-110_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-110_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA120_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-120_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-120_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA130_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-130_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-130_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA140_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-140_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-140_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA150_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-150_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-150_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA160_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-160_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-160_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA170_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-170_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-170_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA180_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-180_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-180_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-11_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-11_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-14_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-14_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-17")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-17_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-17_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA190_Tanb-8")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-190_Tanb-8_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-190_Tanb-8_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA200_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-200_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-200_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA225_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-225_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-225_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA250_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-250_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-250_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA275_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-275_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-275_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300"){
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-5_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-10_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-15_13TeV_pythia8_Merged.root"); 
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-20_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-25_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-30_13TeV_pythia8_Merged.root"); 
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-35_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-40_13TeV_pythia8_Merged.root"); 
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-45_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-50_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-55_13TeV_pythia8_Merged.root");
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-60_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-5_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-10_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-20_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-25_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-35_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-45_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-50_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-55_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-60_13TeV_pythia8_Merged.root");
     }
     if(sel_dataset == "bbA_MA300_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-20_13TeV_pythia8_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-20_13TeV_pythia8_Merged.root");
     if(sel_dataset == "bbA_MA300_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA300_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-300_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-300_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA350_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-350_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-350_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA400_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-400_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-400_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA450_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-450_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-450_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA500_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-500_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-500_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA600_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-600_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-600_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA700_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-700_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-700_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA800_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-800_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-800_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-10")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-10_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-15")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-15_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-15_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-20")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-20_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-20_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-25")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-25_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-25_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-30")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-30_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-30_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-35")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-35_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-35_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-40")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-40_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-40_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-45")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-45_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-45_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-50")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-50_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-50_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-55")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-55_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-55_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-5")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-5_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-5_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbA_MA900_Tanb-60")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbA-HiggsToMuMu_MA-900_Tanb-60_13TeV_pythia8_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Signal/MSSMbbA-HiggsToMuMu_MA-900_Tanb-60_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbH_MA1000_Tanb-10")
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/MSSMbbH-HiggsToMuMu_MA-1000_Tanb-10_13TeV_pythia8_Merged.root"); 
     if(sel_dataset == "bbH_MA1000_Tanb-15")
@@ -2571,7 +2571,7 @@ NewAnalyzer::NewAnalyzer(TString dataset, float mA, float min, float max, int Sc
     
 
     if(sel_dataset == "DY_nlo1")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_nlo_ext_Merged.root");
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Background/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_nlo_ext_Merged.root");
     if(sel_dataset == "DY_nlo2")
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_nlo_ext_Merged_bis.root");
     if(sel_dataset == "DY_nlo3")
@@ -2589,7 +2589,7 @@ NewAnalyzer::NewAnalyzer(TString dataset, float mA, float min, float max, int Sc
 
 
     if(sel_dataset == "DY_mad1")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Background/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged.root"); 
     if(sel_dataset == "DY_mad2")
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged_bis.root");
     if(sel_dataset == "DY_mad3")
@@ -2604,7 +2604,7 @@ NewAnalyzer::NewAnalyzer(TString dataset, float mA, float min, float max, int Sc
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_tWtop_asymptotic_Moriond17_pow_Merged.root"); 
 
     if(sel_dataset == "ttbar_nlo")
-      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_TTbarJets_nlo_Merged.root"); 
+      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Background/NTuple_mc_TTbarJets_nlo_Merged.root"); 
 
     if(sel_dataset == "ttbar_mad1")
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_TTbarJets_madgraph_Merged.root");
