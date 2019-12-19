@@ -2589,7 +2589,7 @@ NewAnalyzer::NewAnalyzer(TString dataset, float mA, float min, float max, int Sc
 
 
     if(sel_dataset == "DY_mad1")
-      chain->Add("/gpfs_data/local/cms/tdiotalevi/MSSM_h2mu_Background/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged.root"); 
+      chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged.root"); 
     if(sel_dataset == "DY_mad2")
       chain->Add("/eos/cms/store/user/federica/Moriond18/V2/NTuple_mc_DYJetsToLL_M-50_asymptotic_Moriond17_madgraph_Merged_bis.root");
     if(sel_dataset == "DY_mad3")
